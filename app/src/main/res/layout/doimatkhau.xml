@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images13131313">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/images12121"
+        android:gravity="center">
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp">
+        <TableRow>
+            <TextView
+                android:text="Tài Khoản      :"
+                android:textColor="#070719"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edtUsernamedoimatkhau"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Mật Khẩu cũ :"
+                android:textColor="#070719"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edtMatkhaucũ"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Mật Khẩu mới:"
+                android:textColor="#070719"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edtMatkhaumoi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btndoimatkhau"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Đổi mật khẩu" />
+
+        <Button
+            android:id="@+id/btnxoa3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Nhập lại" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSignup11"
+        android:text="Thoát"
+        android:textColor="#070719"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
